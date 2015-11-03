@@ -7,12 +7,11 @@ public class Pathfinder : MonoBehaviour {
 	public Transform target2;
 	public Transform target3;
 	public Transform target4;
-	public Transform player;
 	float dist1;
 	float dist2;
 	float dist3;
 	float dist4;
-	NavMeshAgent agent;
+	public NavMeshAgent agent;
 
 	void Start () 
 	{
