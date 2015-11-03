@@ -23,12 +23,13 @@ public class Follow : MonoBehaviour
 		rezoom ();
 		//transform.position = camPos;
 		if (Input.GetKey (Dezoom)) {
+			camPos.y=95;
 			camPos.y = Mathf.MoveTowards (camPos.y,300,x);
-			x = x+ (Time.deltaTime * 30);
+			x = x+ (Time.deltaTime * 100);
 			y = 0;
 		} else {
 			x=0;
-		}
+					}
 		transform.position = camPos;
 	}
 
@@ -38,8 +39,12 @@ public class Follow : MonoBehaviour
 			camPos.y = 95;
 		} else {
 			camPos.y = Mathf.MoveTowards (camPos.y,95,y);
-			y = y+ (Time.deltaTime * 12);
+			y = y+ (Time.deltaTime * 25);
+
+
 		}
+
+
 	}
 }
 
