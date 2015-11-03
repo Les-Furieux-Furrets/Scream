@@ -24,7 +24,7 @@ public class Follow : MonoBehaviour
 		//transform.position = camPos;
 		if (Input.GetKey (Dezoom)) {
 			camPos.y = Mathf.MoveTowards (camPos.y,300,x);
-			x = x+ (Time.deltaTime * 30);
+			x = x+ (Time.deltaTime * 20);
 			y = 0;
 		} else {
 			x=0;

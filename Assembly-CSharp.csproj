@@ -45,8 +45,10 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Debut.cs" />
      <Compile Include="Assets\Scripts\Follow.cs" />
      <Compile Include="Assets\Scripts\Pathfinder.cs" />
+     <Compile Include="Assets\Scripts\Pause.cs" />
      <Compile Include="Assets\Scripts\Run.cs" />
      <Compile Include="Assets\Scripts\Scream.cs" />
      <Compile Include="Assets\Scripts\Simple2DMoveController.cs" />
